@@ -1,0 +1,179 @@
+/* Estilos globales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Sección */
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Títulos de sección */
+section h2 {
+    color: #333; 
+}
+
+/* Pie de página */
+footer {
+    background-color: #515151; /* gris */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Enlaces */
+a {
+    color: #4caf50; /* Verde */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Botones */
+.btn {
+    display: inline-block;
+    background-color: #333; 
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #333;
+}
+
+/* Galería de imágenes */
+.gallery-container {
+    overflow: hidden;
+    position: relative;
+    margin-top: 20px;
+}
+
+.gallery {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.gallery img {
+    width: calc(100% / 3);
+    border-radius: 5px;
+}
+
+/* Estilos del menú desplegable */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #333; 
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content a:hover {
+    background-color: #333; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #333; 
+}
+
+body {
+    background: rgb(255,255,255)
+}
+
+.container {
+    max-width: 800px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Esto centra el contenedor horizontalmente */
+    padding: 20px; /* Espacio de relleno dentro del contenedor */
+    text-align: justify; /* Justifica el texto dentro del contenedor */
+    color: black; /* Color del texto */
+}
+
+p {
+    font-size: 18px; /* Tamaño de fuente del párrafo */
+}
+#pie_pagina{     
+    background: #E0F7FA;;
+    height: 280px;
+    width: 100%;    
+}
+#redes_lista li{    
+    display: inline; 
+    padding-left: 0px;
+    
+}
+#redes_lista{
+    padding-left: 480px;
+    padding-top: 35px
+    
+}
+#listaredes img{    
+    height: 50px;
+    width: 50px;    
+}
+#img1{
+    height: 50px;
+    width: 50px;
+}
+#img2{
+   height: 50px;
+   width: 50px;
+}
+#img3{
+   height: 50px;
+   width: 50px;
+}
+#img4{
+   height: 50px;
+   width: 50px;
+}
+#redes_lista img:hover{
+    transform: scale(1.3);
+}
